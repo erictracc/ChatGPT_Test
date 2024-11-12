@@ -7,5 +7,5 @@ connectToDatabase();
 
 const port = config.web.port;
 app.listen(port, () => {
-    console.log(`Server running on https://itec4220.itzflip.ca`);
+    console.log(`Server running on http://192.168.195.91:27020`);
 });

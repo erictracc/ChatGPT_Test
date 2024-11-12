@@ -1,9 +1,9 @@
 {
     "web": {
-        "port": 3000
+        "port": 7548
     },
     "mongodb": {
-        "url": "mongodb://localhost:27017",
+        "url": "mongodb://root:eric2003@172.18.0.1:27017/test?authSource=admin&readPreference=primary&ssl=false&retryWrites=true&w=majority",
         "dbName": "test"
     }
 }

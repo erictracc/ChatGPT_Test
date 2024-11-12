@@ -1,6 +1,6 @@
 {
     "web": {
-        "port": 7548
+        "port": 27020
     },
     "mongodb": {
         "url": "mongodb://root:eric2003@172.18.0.1:27017/test?authSource=admin&readPreference=primary&ssl=false&retryWrites=true&w=majority",

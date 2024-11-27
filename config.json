@@ -1,9 +1,17 @@
 {
     "web": {
-        "port": 27020
+        "port": 3000
     },
     "mongodb": {
-        "url": "mongodb://root:eric2003@172.18.0.1:27017/test?authSource=admin&readPreference=primary&ssl=false&retryWrites=true&w=majority",
-        "dbName": "test"
+        "url": "mongodb://localhost:27017"
+    },
+    "spreadsheets": {
+        "computer_security": "computer_security.csv",
+        "history": "history.csv",
+        "social_science": "social_science.csv"
+    },
+    "api": {
+        "openaiKey": "",
+        "prompt": ""
     }
 }
